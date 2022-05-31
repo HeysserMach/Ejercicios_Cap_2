@@ -1,0 +1,68 @@
+	2.7 Complete las siguientes oraciones:
+
+	a)  "COMENTARIOS"se utilizan para documentar un programa y mejorar su legibilidad.
+
+	b) En un programa en Java puede tomarse una decisión usando un(a) "CONDICION" .
+
+	c) Los cálculos se realizan normalmente mediante instrucciones "DE ASIGNACION".
+
+	d) Los  operadores  aritméticos  con  la  misma  precedencia que la  multiplicación  son  "RESIDUO" y "DIVISION".
+
+	e) Cuando los  paréntesis  en  una  expresión  aritmética  están  anidados,  se  evalúa  primero  el  conjunto "MAS INTERNO" de paréntesis.
+
+	f) Una ubicación en la memoria de la computadora que puede contener distintos valores en diversos
+	instantes de tiempo durante la ejecución de un programa, se llama "VARIABLE".
+
+
+	2.9 Conteste converdadero o falso a cada una de las siguientes proposiciones; en caso de ser falso, explique por qué.
+
+	a)Los operadores en Java se evalúan de izquierda a derecha.----------------------------------------------------------------------------------"V"
+
+	b)Los siguientes nombres de variables son todos válidos: _barra_inferior_, m928134,t5,
+	j7,sus_ventas$, su_$cuenta_total, a, b$, c, zyz2.------------------------------------------------------------------------------------------------------"V"
+
+	c)Una expresión aritmética válida en Java sin paréntesis se evalúa de izquierda a derecha.-------------------------------------------"F" Se evaluan segun la precedencia.
+
+	d)Los siguientes nombres de variables son todos inválidos:3g, 87, 67h2 ,h22 y 2h.--------------------------------------------------------"F" La variable h22 es correcta.
+
+
+
+	2.11 ¿Cuáles de las siguientes instrucciones de Java contienen variables, cuyos valores se modifican?
+
+	a)p = i + j + k + 7;
+
+	b)System.out.println(“variables cuyos valores se modifican”);
+
+	c)System.out.println(“a = 5”);
+
+	d)valor = entrada.nextInt(); "Esta es Correcta."
+
+
+
+	2.13 Indique el orden de evaluación de los operadores en cada una de las siguientes instrucciones en Java, y muestre
+	el valor de x después de ejecutar cada una de ellas:
+
+	a)x = 7 + 3 * 6 / 2 – 1;
+	
+	1:___________3*6 =18
+    	2:___________18/2=9
+	3:___________7+9 =16
+	4:___________16-1=15
+
+	b)x = 2 % 2 + 2 * 2 – 2 / 2;
+	1:___________2%2=0
+	2:___________2*2=4
+	3:___________ 2/2=1
+	4:___________ 0+4=4
+	5: ___________4-1=3
+
+	c)x = (3 * 9 * (3 + (9 * 3 /(3))));
+	1: ___________(3) = 3
+	2: ___________(9*3/3)= 9*3/3
+	3: ___________9*3=27
+	4:___________ 27/3=9
+	5: ___________(3+9)= 3+9
+	6: ___________3+9=12
+	7: ___________(3*9*12)= 3*9*12
+	8: ___________3*9=27
+	9: ___________27*12= 324
